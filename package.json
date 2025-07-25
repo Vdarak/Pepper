@@ -1,23 +1,18 @@
 {
-  "name": "copy-of-pepper---your-personal-job-hunt-assistant",
+  "name": "pepper-job-assistant",
+  "version": "1.0.0",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "description": "An AI-powered assistant to parse job postings, manage resumes, and streamline your job hunt.",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "vercel dev"
   },
   "dependencies": {
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "@google/genai": "^1.8.0",
-    "ogl": "^1.0.0",
-    "gsap": "^3.12.5"
+    "@google/genai": "^1.8.0"
   },
   "devDependencies": {
-    "@types/node": "^22.14.0",
-    "typescript": "~5.7.2",
-    "vite": "^6.2.0"
+    "@types/node": "^20.14.9",
+    "@types/react": "^19.0.0",
+    "@vercel/node": "^3.2.3",
+    "typescript": "^5.5.2"
   }
 }
