@@ -1,0 +1,23 @@
+// Small universe for MVP to stay within Alpha Vantage free tier limits
+export const UNIVERSE = [
+  'AAPL',
+  'MSFT',
+  'NVDA',
+  'TSLA',
+  'META',
+  'GOOGL',
+  'AMZN',
+  'AMD',
+  'NFLX',
+  'CRM',
+  'ADBE',
+  'INTC',
+  'CSCO',
+  'ORCL',
+  'QCOM',
+  'TXN',
+  'AVGO',
+  'SHOP',
+  'SQ',
+  'PYPL',
+];
